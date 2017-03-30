@@ -5,6 +5,8 @@ class Agency < SitePrism::Page
   end
 
   def click_something(link)
-    click_link(link)
+    $wait.until {
+      click_link(link)
+    }
   end
 end

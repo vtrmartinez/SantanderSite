@@ -20,7 +20,7 @@ Funcionalidade: Buscar Agências
 		Dado que eu esteja na home do site Santander
 		Quando eu buscar agência pelo número
 		Então aparecerá a agência solicitada
-	
+
 	Cenario: Buscar agência por minha rota
 		Dado que eu esteja na home do site Santander
 		Quando eu buscar agência pela rota de origem e rota de destino
