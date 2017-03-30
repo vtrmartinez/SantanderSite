@@ -5,6 +5,7 @@ Quando(/^eu buscar agência pelo CEP$/) do
   @app.agency.last_window
   within_frame(@app.searchAgency.iframe) do
     @app.searchAgency.near.cep.set ADDRESS['NEAR']['CEP']
+    sleep 1
     @app.searchAgency.near.search.click
     @app.searchAgency.near.address.select(ADDRESS['NEAR']['ADDRESS'])
   end

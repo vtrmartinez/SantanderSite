@@ -6,6 +6,7 @@ Funcionalidade: Buscar Agências
 	Quero procurar uma agência dentro do Brasil
 	Para saber suas informações de contato
 
+	@valid
 	Cenario: Buscar agência por CEP válido
 		Dado que eu esteja na home do site Santander
 		Quando eu buscar agência pelo CEP
@@ -21,6 +22,7 @@ Funcionalidade: Buscar Agências
 		Quando eu buscar agência pelo número
 		Então aparecerá a agência solicitada
 
+	@route
 	Cenario: Buscar agência por minha rota
 		Dado que eu esteja na home do site Santander
 		Quando eu buscar agência pela rota de origem e rota de destino
